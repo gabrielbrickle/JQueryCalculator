@@ -5,8 +5,6 @@ $('input').on('click', function(event){
   $('#answer').append(numOfClicked); ///append allows u to add to element more than just numOfClicked
 })
 
-
-
 $('#C').on('click', function(event){
   event.preventDefault();
   $('#answer').text('0');
