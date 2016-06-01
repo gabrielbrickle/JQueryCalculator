@@ -2,6 +2,9 @@
 div.container {
 width:319px;
 margin:auto;
+border: solid 15px #607D8B;
+border-radius: 15px;
+background-color: grey;
 }
 
 #answer {
@@ -15,16 +18,16 @@ padding-left: 8px;
 }
 
 #C {
-  color: red;
-  width: 100%;
+  color: #FF5722;
+  width: 98%;
 }
 
 #equals {
   color: #000;
-  width: 100%;
+  width: 98%;
   text-align: center;
   border: solid 1px grey;
-  background-color: #00FFC4;
+  background-color: #FF5722;
 }
 
 input {
